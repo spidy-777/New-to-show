@@ -13,15 +13,15 @@ int main(){
         cout << "Enter: "<<endl;
         cin >>userinput2; 
         
-        if(userinput3=1){
+        if(userinput3==1){
         cout << userinput1+userinput2 << endl;
-        }else if(userinput3=2){
+        }else if(userinput3==2){
         cout << userinput1-userinput2 << endl;
         }
-        else if(userinput3=3){
+        else if(userinput3==3){
         cout << userinput1*userinput2 << endl;
         }
-       else if(userinput3=4){
+       else if(userinput3==4){
         cout << userinput1/userinput2 << endl;
         }
         else{
